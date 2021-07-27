@@ -2,7 +2,7 @@ import { Component } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import aboutMePhoto from "../img/aboutMePhoto.png";
 import AOS from "aos";
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css";
 import "../css/About.css";
 
 class About extends Component{

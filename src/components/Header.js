@@ -1,8 +1,8 @@
 import { Component } from "react";
 import { Container, Row, Col, Button, Image } from "react-bootstrap";
 import AOS from "aos";
-import headerPhoto from "../img/headerPhoto2-min.png";
-import 'aos/dist/aos.css';
+import headerPhoto from "../img/headerPhoto.png";
+import "aos/dist/aos.css";
 import "../css/Header.css";
 
 class Header extends Component{

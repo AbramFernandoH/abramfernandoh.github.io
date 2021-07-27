@@ -1,5 +1,6 @@
 import { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import AOS from "aos";
 import CardProject from "./CardProjects";
 import homesubImg from "../img/homeSub.png";
 import homesubGif from "../img/homeSub-gif.gif";
@@ -9,6 +10,7 @@ import simonGameImg from "../img/simonGame.png";
 import simonGameGif from "../img/simonGame-gif.gif";
 import calcReactImg from "../img/calcReactjs.png";
 import calcReactGif from "../img/calcReactjs.gif";
+import "aos/dist/aos.css";
 import "../css/Projects.css";
 
 class Projects extends Component{
@@ -24,6 +26,13 @@ class Projects extends Component{
     };
     this.handleShow = this.handleShow.bind(this);
     this.handleClose = this.handleClose.bind(this);
+  }
+
+  componentDidMount(){
+    AOS.init({
+      duration: 2000,
+      once: true
+    });
   }
 
   async handleShow(st){
@@ -76,8 +85,8 @@ class Projects extends Component{
     return(
       <section className="Projects" id="Projects">
         <Container>
-          <h1 className="text-center text-white">Projects</h1>
-          <Row>
+          <h1 className="text-center text-white" data-aos="fade-up">Projects</h1>
+          <Row data-aos="fade-up">
             <Col xl={3} md={6} className="homesub">
               <CardProject
                 imgSrc={homesubImg}

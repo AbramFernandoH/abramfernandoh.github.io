@@ -1,20 +1,29 @@
 import { Component } from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "../css/Contact.css";
 
 class Contact extends Component{
+  componentDidMount(){
+    AOS.init({
+      duration: 2000,
+      once: true
+    });
+  }
+
   render(){
     return(
       <section id="Contact" className="Contact">
         <Container fluid>
-          <h1 className="text-center">Contact</h1>
+          <h1 className="text-center" data-aos="fade-up">Contact</h1>
           <Row className="contact-main d-flex flex-lg-row flex-column-reverse">
-            <Col lg={4} className="contact-info text-white fw-bold d-flex flex-lg-column justify-content-lg-start justify-content-md-between flex-md-row align-items-md-start flex-column justify-content-center align-items-center">
+            <Col lg={4} className="contact-info text-white fw-bold d-flex flex-lg-column justify-content-lg-start justify-content-md-between flex-md-row align-items-md-start flex-column justify-content-center align-items-center" data-aos="fade-right">
               <p><i className="fab fa-whatsapp"></i> (+62) 896 1771 5065</p>
               <p><i className="far fa-envelope"></i> abramfernando18@gmail.com</p>
               <p><i className="fas fa-map-marker-alt"></i>  Bekasi, West Java, Indonesia</p>
             </Col>
-            <Col lg={8} className="contact-form">
+            <Col lg={8} className="contact-form" data-aos="fade-left">
               <Form action="https://formsubmit.co/abramfernando18@gmail.com" method="POST">
                 <Row>
                   <Col lg={6}>

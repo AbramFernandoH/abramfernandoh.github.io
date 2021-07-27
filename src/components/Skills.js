@@ -2,7 +2,7 @@ import { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import AOS from "aos";
 import PilSkills from "./PilSkills";
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css";
 import "../css/Skills.css";
 
 class Skills extends Component{
