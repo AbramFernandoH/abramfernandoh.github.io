@@ -1,0 +1,67 @@
+.About{
+  padding: 5% 10%;
+  background-color: brown;
+}
+
+.About h1{
+  margin-bottom: 2rem;
+  padding-top: 1.5rem;
+}
+
+.About p{
+  margin-top: 1.1rem;
+  font-size: 1.2rem;
+}
+
+.about-img img{
+  border-radius: 10px;
+  width: 90%;
+}
+
+@media screen and (max-width: 1400px) {
+  .About p{
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .About p{
+    font-size: .9rem;
+  }
+
+  .about-img img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .about-img img{
+    width: 90%;
+    height: 80%;
+  }
+
+  .About p{
+    font-size: .85rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-img img{
+    height: 100%;
+  }
+
+  .About p{
+    font-size: .88rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about-img img{
+    width: 100%;
+  }
+  
+  .About p{
+    font-size: .8rem;
+  }
+}

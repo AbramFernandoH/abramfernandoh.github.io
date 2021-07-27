@@ -1,0 +1,28 @@
+.PilSkills{
+  background-color: firebrick;
+  border-radius: 10% / 60%;
+  height: 40px;
+}
+
+.skill-text{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 576px) {
+  .PilSkills{
+    border-radius: 10% / 45%;
+    width: 75px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .PilSkills{
+    padding: 1%;
+  }
+
+  .skill-text{
+    font-size: .7rem;
+  }
+}

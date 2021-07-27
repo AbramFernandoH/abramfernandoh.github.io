@@ -1,0 +1,30 @@
+.CardProject{
+  color: firebrick;
+}
+
+.details-btn{
+  background-color: firebrick;
+  border-color: firebrick;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid white;
+  padding: 3% 5%;
+  transition: all .3s;
+}
+
+.details-btn:hover{
+  background-color: white;
+  color: firebrick;
+  border: 1px solid firebrick;
+}
+
+.btn-seeRepo a, .btn-seeWeb a{
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .details-btn{
+    padding: 2% 4%;
+  }
+}

@@ -1,0 +1,9 @@
+.Navs .navbar{
+  background-color: brown;
+  opacity: .6;
+  transition: all .3s;
+}
+
+.Navs .navbar:hover{
+  opacity: 1;
+}

@@ -1,0 +1,83 @@
+.Contact{
+  padding: 5% 8%;
+  background-image: linear-gradient(to right, #368C07 0 32%, #5AD916 32%);
+}
+
+.Contact h1{
+  margin-bottom: 4%;
+  color: white;
+  padding-top: 1.5rem;
+}
+
+.contact-info i{
+  color: #5AD916;
+  font-size: 1.2rem;
+}
+
+.contact-form label{
+  color: white;
+}
+
+.contact-form .btn{
+  background-color: #368C07;
+  border-color: #368C07;
+}
+
+.contact-form .btn:hover{
+  background-color: #47af0e;
+  border-color: #47af0e;
+}
+
+@media screen and (max-width: 1200px) {
+  .Contact{
+    background-image: linear-gradient(to right, #368C07 0 34%, #5AD916 34%);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .Contact{
+    background-image: linear-gradient(to right, #368C07 0 35%, #5AD916 35%);
+  }
+
+  .contact-info p{
+    font-size: .9rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Contact{
+    background-image: linear-gradient(to top, #368C07 0 20%, #5AD916 20%);
+  }
+
+  .contact-info{
+    padding: 5%;
+  }
+
+  .contact-form{
+    padding: 5%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .contact-info p{
+    font-size: .8rem;
+  }
+
+  .contact-info i{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Contact{
+    background-image: linear-gradient(to top, #368C07 0 25%, #5AD916 25%);
+  }
+
+  .contact-info p{
+    font-size: 1rem;
+  }
+
+  .contact-info i{
+    font-size: 1.2rem;
+  }
+}
