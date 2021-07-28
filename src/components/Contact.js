@@ -24,7 +24,7 @@ class Contact extends Component{
               <p><i className="fas fa-map-marker-alt"></i>  Bekasi, West Java, Indonesia</p>
             </Col>
             <Col lg={8} className="contact-form" data-aos="fade-left">
-              <Form action="https://formsubmit.co/abramfernando18@gmail.com" method="POST">
+              <Form className="contanct-form" action="https://formsubmit.co/abramfernando18@gmail.com" method="POST">
                 <Row>
                   <Col lg={6}>
                     <Form.Group className="mb-3" controlId="name">
@@ -58,7 +58,7 @@ class Contact extends Component{
 
                 </Row>
                 <Form.Group className="d-flex justify-content-center align-items-center">
-                  <Button size="lg" type="submit">Send</Button>
+                  <Button className="contact-btn" size="lg" type="submit">Send</Button>
                 </Form.Group>
                 
               </Form>

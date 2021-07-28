@@ -23,6 +23,40 @@
   text-decoration: none;
 }
 
+@media screen and (min-width: 1600px) {
+  .project-title{
+    font-size: 1.6rem;
+  }
+
+  .project-text{
+    font-size: 1.2rem;
+  }
+
+  .details-btn{
+    font-size: 1.2rem;
+  }
+
+  .modal-header .btn-close{
+    font-size: 1.5rem;
+  }
+
+  .modal-project-title{
+    font-size: 2rem;
+  }
+
+  .modal-project-body, .btn-seeRepo, .btn-seeWeb{
+    font-size: 1.2rem;
+  }
+
+  .btn-seeRepo, .btn-seeWeb{
+    padding: .5rem .75rem;
+  }
+
+  .btn-seeRepo .fab, .btn-seeWeb .fab{
+    font-size: 1.25rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .details-btn{
     padding: 2% 4%;

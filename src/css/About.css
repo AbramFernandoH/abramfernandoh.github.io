@@ -18,6 +18,20 @@
   width: 90%;
 }
 
+@media screen and (min-width: 1600px) {
+  .About h1{
+    font-size: 3.1rem;
+  }
+
+  .About p{
+    font-size: 1.4rem;
+  }
+
+  .about-img img{
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 1400px) {
   .About p{
     font-size: 1.1rem;

@@ -9,17 +9,17 @@ class CardProject extends Component{
         <Card>
           <Card.Img variant="top" src={this.props.imgSrc} />
           <Card.Body>
-            <Card.Title className="fw-bolder">{this.props.title}</Card.Title>
-            <Card.Text>{this.props.text}</Card.Text>
+            <Card.Title className="fw-bolder project-title">{this.props.title}</Card.Title>
+            <Card.Text className="project-text">{this.props.text}</Card.Text>
             <button className="details-btn" onClick={this.props.handleShow}>See Details</button>
           </Card.Body>
         </Card>
 
         <Modal show={this.props.show} onHide={this.props.handleClose} backdrop="static" keyboard={false}>
           <Modal.Header closeButton>
-            <Modal.Title>{this.props.title}</Modal.Title>
+            <Modal.Title className="modal-project-title">{this.props.title}</Modal.Title>
           </Modal.Header>
-          <Modal.Body>
+          <Modal.Body  className="modal-project-body">
             <Image src={this.props.modalImg} className="modal-img" />{' '}
             {this.props.techStack}<br/><br/>
             {this.props.text}

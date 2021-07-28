@@ -12,7 +12,7 @@ class Footer extends Component{
               <p><i className="fab fa-linkedin"></i> Abram Fernando Haullussy</p>
             </Col>
             <Col lg={6}>
-              <p>© by Abram Fernando Haullussy 2021</p>
+              <p><span className="footer-copyright">©</span> by Abram Fernando Haullussy 2021</p>
             </Col>
             <Col lg={3}>
               <p><i className="fab fa-github"></i> AbramFernandoH</p>

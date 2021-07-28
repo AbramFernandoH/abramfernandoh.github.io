@@ -28,6 +28,35 @@
   border-color: #47af0e;
 }
 
+@media screen and (min-width: 1600px) {
+  .Contact h1{
+    font-size: 3.1rem;
+  }
+
+  .contact-form .form-label{
+    font-size: 1.3rem;
+  }
+
+  .contanct-form .form-control{
+    padding: .5rem .75rem;
+    font-size: 1.2rem;
+  }
+
+  .contact-info p{
+    font-size: 1.3rem;
+  }
+
+  .contact-info i{
+    font-size: 1.4rem;
+    margin-right: .5rem;
+  }
+
+  .contact-btn{
+    font-size: 1.4rem;
+    padding: .7rem 1rem;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .Contact{
     background-image: linear-gradient(to right, #368C07 0 34%, #5AD916 34%);

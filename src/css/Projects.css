@@ -22,3 +22,9 @@
   background-color: rgb(36, 36, 36);
   border-color: rgb(36, 36, 36);
 }
+
+@media screen and (min-width: 1600px) {
+  .Projects h1{
+    font-size: 3.1rem;
+  }
+}

@@ -2,3 +2,17 @@
   padding: 3% 5%;
   background-color: firebrick;
 }
+
+@media screen and (min-width: 1600px) {
+  .Footer p{
+    font-size: 1.2rem;
+  }
+
+  .Footer .fab{
+    font-size: 1.3rem;
+  }
+
+  .footer-copyright{
+    font-size: 1.3rem;
+  }
+}

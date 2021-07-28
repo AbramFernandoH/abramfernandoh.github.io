@@ -9,7 +9,7 @@ import cateringGif from "../img/catering-gif.gif";
 import simonGameImg from "../img/simonGame.png";
 import simonGameGif from "../img/simonGame-gif.gif";
 import calcReactImg from "../img/calcReactjs.png";
-import calcReactGif from "../img/calcReactjs.gif";
+import calcReactGif from "../img/calcReactjs-gif.gif";
 import "aos/dist/aos.css";
 import "../css/Projects.css";
 

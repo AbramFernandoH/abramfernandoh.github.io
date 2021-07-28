@@ -9,6 +9,18 @@
   margin-bottom: 8px;
 }
 
+@media screen and (min-width: 1600px) {
+  .PilSkills .skill-text{
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .skill-text{
+    font-size: 1.1rem;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .PilSkills{
     border-radius: 10% / 45%;

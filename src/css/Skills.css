@@ -28,6 +28,16 @@
   background-color: firebrick;
 }
 
+@media screen and (min-width: 1600px) {
+  .title-skills{
+    font-size: 3.2rem;
+  }
+
+  .Skills h3{
+    font-size: 2.3rem;
+  }
+}
+
 @media screen and (max-width: 1600px){
   .title-skills-border{
     top: 16%;

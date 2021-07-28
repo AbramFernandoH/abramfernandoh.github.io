@@ -57,6 +57,26 @@
   width: 100%;
 } */
 
+@media screen and (min-width: 1600px) {
+  .header-text h1{
+    font-size: 3.3rem;
+  }
+
+  .header-text p{
+    font-size: 1.4rem;
+  }
+
+  .header-text .header-btn{
+    font-size: 1.5rem;
+  }
+
+  .header-pic img{
+    max-height: 800px;
+    max-width: 800px;
+    width: 600px;
+  }
+}
+
 @media screen and (max-width: 1400px){
   .Header, .header-text, .header-pic{
     min-height: 600px;
