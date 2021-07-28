@@ -97,14 +97,6 @@
   }
 }
 
-@media screen and (min-width: 770px) {
-  .contact-info{
-    justify-content: space-between!important;
-    flex-direction: row!important;
-    align-items: flex-start!important;
-  }
-}
-
 @media screen and (max-width: 769px) {
   .Contact{
     background-image: linear-gradient(to top, #368C07 0 25%, #5AD916 25%);
