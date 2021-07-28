@@ -92,7 +92,7 @@ class Projects extends Component{
                 imgSrc={homesubImg}
                 title="HomeSub"
                 techStack='Javascript, Firebase (Realtime Database), Google OAuth'
-                text='User can download, search, and request various movies subtitles.'
+                text='User can download, search, and request various movies subtitles. There is also Google OAuth that required user to login with their google account.'
                 show={this.state.modal.homesub}
                 handleShow={() => this.handleShow('homesub')}
                 handleClose={() => this.handleClose('homesub')}
