@@ -2,6 +2,7 @@ import { Component } from "react";
 import { Container, Row, Col, Button, Image } from "react-bootstrap";
 import AOS from "aos";
 import headerPhoto from "../img/headerPhoto.png";
+import headerPhotoWebp from "../img/headerPhoto-webp.webp";
 import "aos/dist/aos.css";
 import "../css/Header.css";
 
@@ -29,7 +30,7 @@ class Header extends Component{
               </div> */}
             </Col>
             <Col lg={5} className="header-pic d-flex flex-column-reverse">
-              <Image src={headerPhoto} data-aos="fade-up" data-aos-delay="300" />
+              <Image src={headerPhotoWebp || headerPhoto} data-aos="fade-up" data-aos-delay="300" />
             </Col>
           </Row>
         </Container>

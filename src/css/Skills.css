@@ -56,30 +56,14 @@
   }
 }
 
-@media screen and (max-width: 920px){
+@media screen and (max-width: 992px){
   .title-skills-border{
-    top: 11%;
+    top: 15%;
   }
 }
 
 @media screen and (max-width: 768px){
   .title-skills-border{
-    top: 9%;
-  }
-}
-
-@media screen and (max-width: 576px){
-  .title-skills-border{
-    top: 6.5%;
-  }
-
-  .skill-text{
-    font-size: .8rem;
-  }
-}
-
-@media screen and (max-width: 400px){
-  .title-skills-border{
-    top: 5%;
+    top: 13%;
   }
 }

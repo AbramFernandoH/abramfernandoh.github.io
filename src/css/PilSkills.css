@@ -21,16 +21,11 @@
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 450px) {
   .PilSkills{
     border-radius: 10% / 45%;
     width: 75px;
     height: 35px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .PilSkills{
     padding: 1%;
   }
 

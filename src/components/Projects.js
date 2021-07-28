@@ -3,12 +3,16 @@ import { Container, Row, Col } from "react-bootstrap";
 import AOS from "aos";
 import CardProject from "./CardProjects";
 import homesubImg from "../img/homeSub.png";
+import homesubWebp from "../img/homeSub-webp.webp";
 import homesubGif from "../img/homeSub-gif.gif";
 import cateringImg from "../img/catering.png";
+import cateringWebp from "../img/catering-webp.webp";
 import cateringGif from "../img/catering-gif.gif";
 import simonGameImg from "../img/simonGame.png";
+import simonGameWebp from "../img/simonGame-webp.webp";
 import simonGameGif from "../img/simonGame-gif.gif";
 import calcReactImg from "../img/calcReactjs.png";
+import calcReactWebp from "../img/calcReactjs-webp.webp";
 import calcReactGif from "../img/calcReactjs-gif.gif";
 import "aos/dist/aos.css";
 import "../css/Projects.css";
@@ -89,7 +93,7 @@ class Projects extends Component{
           <Row data-aos="fade-up">
             <Col xl={3} md={6} className="homesub">
               <CardProject
-                imgSrc={homesubImg}
+                imgSrc={homesubWebp || homesubImg}
                 title="HomeSub"
                 techStack='Javascript, Firebase (Realtime Database), Google OAuth'
                 text='User can download, search, and request various movies subtitles. There is also Google OAuth that required user to login with their google account.'
@@ -103,7 +107,7 @@ class Projects extends Component{
             </Col>
             <Col xl={3} md={6} className="catering-project">
               <CardProject
-                imgSrc={cateringImg}
+                imgSrc={cateringWebp || cateringImg}
                 title="Catering"
                 techStack='Node Js, Express Js, MongoDB, Mongoose, Passport JS, Xendit (for payment gateway), cloudinary, moment'
                 text='User have to make an account or login to order various catering menu and pay it using creadit / debit card, ewallet (ovo), or cash on delivery.'
@@ -117,7 +121,7 @@ class Projects extends Component{
             </Col>
             <Col xl={3} md={6} className="the-simon-game">
               <CardProject
-                imgSrc={simonGameImg}
+                imgSrc={simonGameWebp || simonGameImg}
                 title="The Simon Game"
                 techStack='React Js'
                 text='User can play simon game, if they remember the sequence of colors right then level will increase, if not then it is game over and the game will restart all over again.'
@@ -131,7 +135,7 @@ class Projects extends Component{
             </Col>
             <Col xl={3} md={6} className="reactjs-calculator">
               <CardProject
-                imgSrc={calcReactImg}
+                imgSrc={calcReactWebp || calcReactImg}
                 title="Reactjs Calculator"
                 techStack='React Js'
                 text='User can subtract, adding, multiply, and divide between two numbers. User also can do such thing in decimal number for one or both numbers.'
