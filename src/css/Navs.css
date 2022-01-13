@@ -1,11 +1,14 @@
 .Navs .navbar{
-  background-color: brown;
-  opacity: .6;
+  background-color: rgb(230, 237, 252);
   transition: all .3s;
 }
 
 .Navs .navbar:hover{
   opacity: 1;
+}
+
+.navbar-brand, .nav-link{
+  color: cornflowerblue!important;
 }
 
 @media screen and (min-width: 1600px) {

@@ -17,8 +17,8 @@ class Skills extends Component{
 
   static defaultProps = {
     skills: {
-      frontEnd: [ 'Html', 'Css', 'Javascript', 'React Js', 'Bootstrap' ],
-      backEnd: [ 'Node Js', 'Express Js', 'MongoDB', 'Mongoose', 'Firebase', 'Git' ],
+      frontEnd: [ 'Html', 'Css', 'Javascript', 'React Js', 'Bootstrap', 'jQuery' ],
+      backEnd: [ 'Node Js', 'Express Js', 'MongoDB', 'Mongoose', 'MySQL', 'Firebase', 'Git', 'PHP', 'Laravel' ],
       language: [ 'Indonesian', 'English' ]
     }
   }
@@ -35,7 +35,7 @@ class Skills extends Component{
     return(
       <section id="Skills" className="Skills d-flex flex-column justify-content-center align-items-center">
         <Container>
-          <h1 className="text-center text-white mb-5 title-skills" data-aos="fade-left">Skills</h1>
+          <h1 className="text-center mb-5 title-skills" data-aos="fade-left">Skills</h1>
           <div className="skills-border d-flex justify-content-center">
             <hr className="title-skills-border" data-aos="fade-right" />
           </div>
@@ -75,7 +75,7 @@ class Skills extends Component{
               </Accordion.Body>
             </Accordion.Item>
           </Accordion> */}
-          <h3 className="text-white" data-aos="fade-left">Front End</h3>
+          <h3 data-aos="fade-left">Front End</h3>
           <Row className="gap-3 mb-5">
             {this.props.skills.frontEnd.map( skill => 
               <Col lg={2} md={3} xs={4} data-aos="fade-right">
@@ -83,7 +83,7 @@ class Skills extends Component{
               </Col>
             )}
           </Row>
-          <h3 className="text-white" data-aos="fade-left">Back End</h3>
+          <h3 data-aos="fade-left">Back End</h3>
           <Row className="gap-3 mb-5">
             {this.props.skills.backEnd.map( skill => 
               <Col lg={2} md={3} xs={4} data-aos="fade-right">
@@ -91,7 +91,7 @@ class Skills extends Component{
               </Col>
             )}
           </Row>
-          <h3 className="text-white" data-aos="fade-left">Language</h3>
+          <h3 data-aos="fade-left">Language</h3>
           <Row className="gap-3 mb-5">
             {this.props.skills.language.map( skill => 
               <Col lg={2} md={3} xs={4} data-aos="fade-right">

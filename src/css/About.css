@@ -1,6 +1,14 @@
 .About{
   padding: 5% 10%;
-  background-color: brown;
+  background-color: rgb(230, 237, 252);
+  color: rgb(230, 237, 252);
+}
+
+.About .container {
+  background: linear-gradient(0.2turn, cornflowerblue, blueviolet);
+  border-radius: 20px;
+  padding: 3rem;
+  box-sizing: border-box;
 }
 
 .About h1{

@@ -1,31 +1,36 @@
 .Contact{
   padding: 5% 8%;
-  background-image: linear-gradient(to right, #368C07 0 32%, #5AD916 32%);
+  background-color: rgb(230, 237, 252);
 }
 
 .Contact h1{
   margin-bottom: 4%;
-  color: white;
+  color: cornflowerblue;
   padding-top: 1.5rem;
 }
 
+.contact-info{
+  background: linear-gradient(0.2turn, cornflowerblue, blueviolet);
+  border-radius: 20px;
+  padding: 1rem;
+}
+
 .contact-info i{
-  color: #5AD916;
   font-size: 1.2rem;
 }
 
 .contact-form label{
-  color: white;
+  color: cornflowerblue;
 }
 
 .contact-form .btn{
-  background-color: #368C07;
-  border-color: #368C07;
+  background-color: blueviolet;
+  border-color: blueviolet;
 }
 
 .contact-form .btn:hover{
-  background-color: #47af0e;
-  border-color: #47af0e;
+  background-color: rgb(145, 63, 221);
+  border-color: rgb(145, 63, 221);
 }
 
 @media screen and (min-width: 1600px) {
@@ -57,27 +62,13 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
-  .Contact{
-    background-image: linear-gradient(to right, #368C07 0 34%, #5AD916 34%);
-  }
-}
-
 @media screen and (max-width: 1100px) {
-  .Contact{
-    background-image: linear-gradient(to right, #368C07 0 35%, #5AD916 35%);
-  }
-
   .contact-info p{
     font-size: .9rem;
   }
 }
 
 @media screen and (max-width: 992px) {
-  .Contact{
-    background-image: linear-gradient(to top, #368C07 0 20%, #5AD916 20%);
-  }
-
   .contact-info{
     padding: 5%;
   }
@@ -98,10 +89,6 @@
 }
 
 @media screen and (max-width: 769px) {
-  .Contact{
-    background-image: linear-gradient(to top, #368C07 0 25%, #5AD916 25%);
-  }
-
   .contact-info p{
     font-size: 1rem;
   }
@@ -111,23 +98,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .Contact{
-    background-image: linear-gradient(to top, #368C07 0 24%, #5AD916 24%);
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .Contact{
-    background-image: linear-gradient(to top, #368C07 0 23%, #5AD916 23%);
-  }
-}
-
 @media screen and (max-width: 450px) {
-  .Contact{
-    background-image: linear-gradient(to top, #368C07 0 27%, #5AD916 27%);
-  }
-
   .contact-info p{
     display: flex;
     flex-direction: column;
@@ -136,17 +107,7 @@
   }
 }
 
-@media screen and (max-width: 350px) {
-  .Contact{
-    background-image: linear-gradient(to top, #368C07 0 26%, #5AD916 26%);
-  }
-}
-
 @media screen and (max-width: 300px) {
-  .Contact{
-    background-image: linear-gradient(to top, #368C07 0 27%, #5AD916 27%);
-  }
-
   .contact-info i{
     margin-bottom: .5rem;
   }

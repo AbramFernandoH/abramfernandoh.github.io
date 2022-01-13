@@ -5,10 +5,10 @@ import "../css/CardProject.css";
 class CardProject extends Component{
   render(){
     return(
-      <div className="CardProject mb-3">
+      <div className="CardProject mb-3 shadow">
         <Card>
           <Card.Img variant="top" src={this.props.imgSrc} />
-          <Card.Body>
+          <Card.Body className="d-flex flex-column justify-content-between">
             <Card.Title className="fw-bolder project-title">{this.props.title}</Card.Title>
             <Card.Text className="project-text">{this.props.text}</Card.Text>
             <button className="details-btn" onClick={this.props.handleShow}>See Details</button>

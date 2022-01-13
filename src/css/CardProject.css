@@ -1,10 +1,28 @@
 .CardProject{
-  color: firebrick;
+  color: cornflowerblue;
+  border-radius: 16px;
+}
+
+.CardProject .card{
+  border-radius: 16px;
+}
+
+.CardProject .card img{
+  border-radius: 16px 16px 0 0;
+}
+
+.CardProject .card-text{
+  white-space: normal;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .details-btn{
-  background-color: firebrick;
-  border-color: firebrick;
+  background: linear-gradient(0.2turn, cornflowerblue, blueviolet);
+  border-color: cornflowerblue;
   border-radius: 10px;
   color: white;
   border: 1px solid white;
@@ -13,9 +31,9 @@
 }
 
 .details-btn:hover{
-  background-color: white;
-  color: firebrick;
-  border: 1px solid firebrick;
+  background: white;
+  color: cornflowerblue;
+  border: 1px solid cornflowerblue;
 }
 
 .btn-seeRepo a, .btn-seeWeb a{
@@ -23,7 +41,29 @@
   text-decoration: none;
 }
 
+@media screen and (min-width: 992px) {
+  .CardProject .card{
+    min-height: 435px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .CardProject .card-text{
+    -webkit-line-clamp: 5;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  /* .CardProject .card{
+    height: 410px;
+  } */
+}
+
 @media screen and (min-width: 1600px) {
+  /* .CardProject .card{
+    height: 500px;
+  } */
+
   .project-title{
     font-size: 1.6rem;
   }

@@ -1,5 +1,5 @@
 .PilSkills{
-  background-color: firebrick;
+  background: linear-gradient(0.2turn, cornflowerblue, blueviolet);
   border-radius: 10% / 60%;
   height: 40px;
 }

@@ -1,9 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
 @media screen and (max-width: 992px) {
   .App{
     overflow-x: hidden;
   }
 
-  #About, #Skills, #Projects, #Contact{
+  #Skills, #Projects, #Contact{
     padding-top: 5rem;
   }
 }

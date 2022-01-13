@@ -1,6 +1,6 @@
 .Header{
-  background-image: linear-gradient(to left, #16D9BB 45%, #078C78 45%);
   max-height: 800px;
+  background-color: rgb(230, 237, 252);
 }
 
 .Header .btn{
@@ -16,6 +16,10 @@
   max-height: 800px;
 }
 
+.header-text h1{
+  color: cornflowerblue;
+}
+
 .header-text h1 span{
   font-weight: 700;
 }
@@ -25,31 +29,36 @@
 }
 
 .header-text p{
-  color: rgb(224, 224, 224);
+  color: cornflowerblue;
   font-size: 1.2rem;
 }
 
 .header-text .header-btn{
   transition: all .3s;
+  border-color: cornflowerblue;
+  color: cornflowerblue;
 }
 
 .header-text .header-btn:hover{
-  color: #16D9BB;
+  background: linear-gradient(0.2turn, cornflowerblue, blueviolet);
+  color: rgb(230, 237, 252);
 }
 
 .header-pic{
   max-height: 800px;
 }
 
-.header-pic .bgImage{
-  height: 75%;
-  width: 100%;
+.header-pic .image-wrapper{
+  border-radius: 50%;
+  background: linear-gradient(0.2turn, cornflowerblue, blueviolet);
+  max-height: 500px;
+  max-width: 500px;
 }
 
 .header-pic img{
-  height: 75%;
   max-height: 500px;
-  max-width: 525px;
+  max-width: 500px;
+  border-radius: 50%;
 }
 /* .header-pic img{
   height: 75%;
@@ -70,10 +79,9 @@
     font-size: 1.5rem;
   }
 
-  .header-pic img{
-    max-height: 800px;
-    max-width: 800px;
-    width: 600px;
+  .header-pic .image-wrapper, .header-pic img{
+    max-height: 600px;
+    max-width: 600px;
   }
 }
 
@@ -119,7 +127,6 @@
 
 @media screen and (max-width: 992px){
   .Header{
-    background-image: linear-gradient(#078C78, #078C78);
     justify-content: center;
   }
 

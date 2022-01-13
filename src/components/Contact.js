@@ -18,34 +18,27 @@ class Contact extends Component{
         <Container fluid>
           <h1 className="text-center" data-aos="fade-up">Contact</h1>
           <Row className="contact-main d-flex flex-lg-row flex-column-reverse">
-            <Col lg={4} className="contact-info text-white fw-bold d-flex flex-lg-column justify-content-lg-start justify-content-md-between align-items-md-start flex-md-row flex-column justify-content-center align-items-center" data-aos="fade-right">
+            <Col lg={4} className="contact-info text-white fw-bold d-flex flex-lg-column justify-content-lg-around justify-content-md-between align-items-md-start flex-md-row flex-column justify-content-center align-items-center" data-aos="fade-right">
               <p><i className="fab fa-whatsapp"></i> (+62) 896 1771 5065</p>
               <p><i className="far fa-envelope"></i> abramfernando18@gmail.com</p>
               <p><i className="fas fa-map-marker-alt"></i>  Bekasi, West Java, Indonesia</p>
             </Col>
-            <Col lg={8} className="contact-form" data-aos="fade-left">
+            <Col xl={5} lg={6} className="contact-form offset-lg-1" data-aos="fade-left">
               <Form className="contanct-form" action="https://formsubmit.co/abramfernando18@gmail.com" method="POST">
                 <Row>
-                  <Col lg={6}>
+                  <Col lg={12}>
                     <Form.Group className="mb-3" controlId="name">
                       <Form.Label>Name</Form.Label>
                       <Form.Control name="name" type="text" placeholder="John Doe" autoComplete="off" />
                     </Form.Group>
                   </Col>  
 
-                  <Col lg={6}>
+                  <Col lg={12}>
                     <Form.Group className="mb-3" controlId="email">
                       <Form.Label>Email</Form.Label>
                       <Form.Control name="email" type="email" placeholder="youremail@mail.com" autoComplete="off" />
                     </Form.Group>
-                  </Col>  
-
-                  <Col lg={12}>
-                    <Form.Group className="mb-3" controlId="subject">
-                      <Form.Label>Subject</Form.Label>
-                      <Form.Control name="_subject" type="text" placeholder="Say hi" autoComplete="off" />
-                    </Form.Group>
-                  </Col>  
+                  </Col> 
 
                   <Col lg={12}>
                     <Form.Group className="mb-4" controlId="message">
