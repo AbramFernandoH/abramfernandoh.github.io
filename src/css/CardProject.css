@@ -53,17 +53,7 @@
   }
 }
 
-@media screen and (min-width: 1400px) {
-  /* .CardProject .card{
-    height: 410px;
-  } */
-}
-
 @media screen and (min-width: 1600px) {
-  /* .CardProject .card{
-    height: 500px;
-  } */
-
   .project-title{
     font-size: 1.6rem;
   }

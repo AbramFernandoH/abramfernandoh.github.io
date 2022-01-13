@@ -9,7 +9,7 @@ class Navs extends Component{
           <Navbar fixed="top" variant="dark" expand="lg">
             <Container>
               <Navbar.Brand href="#Home">Abram</Navbar.Brand>
-              <Navbar.Toggle aria-controls="navs-top"/>
+              <Navbar.Toggle aria-controls="navs-top" children={<i class="fas fa-bars"></i>} />
               <Navbar.Collapse id="navs-top">
                 <Nav className="ms-auto">
                   <Nav.Link href="#Home">Home</Nav.Link>
